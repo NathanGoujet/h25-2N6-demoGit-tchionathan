@@ -26,26 +26,18 @@ import csv
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+doc = "C:\\Users\\6297003\\Documents\\GitHub\\h25-2N6-demoGit-tchionathan\\R03 Exercices Depart\\csvs\\Ex6 competences.csv"
 
 # INSTRUCTIONS DÉTAILLÉES
 #Ouvrez en lecture le fichier Ex6 Competences.csv
+with open(doc, "r", encoding="UTF-8") as csv_fileread:
+    csv_read = csv.reader(csv_fileread,
+                          delimiter="/")
 #avec l'encodage et le delimiter requis
 #Imprimez la première ligne
+    #print(csv_read[0])
 #Faites une boucle pour passer à travers chacune des lignes du fichier
+for ligne in csv_read:
+    #if csv_read[3] ==  "Exigé":
+        print(ligne)
 #Si l'exigence est  'Exigé' imprimez cette ligne
-
