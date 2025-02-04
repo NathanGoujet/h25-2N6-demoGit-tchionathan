@@ -35,9 +35,9 @@ with open(doc, "r", encoding="UTF-8") as csv_fileread:
                           delimiter="/")
 #avec l'encodage et le delimiter requis
 #Imprimez la première ligne
-    #print(csv_read[0])
+    print(csv_read[0])
 #Faites une boucle pour passer à travers chacune des lignes du fichier
 for ligne in csv_read:
-    #if csv_read[3] ==  "Exigé":
+    if csv_read[3] ==  "Exigé":
         print(ligne)
 #Si l'exigence est  'Exigé' imprimez cette ligne
