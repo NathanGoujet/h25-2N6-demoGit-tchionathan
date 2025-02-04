@@ -26,26 +26,12 @@ import csv
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+doc = "C:\\Users\\6297003\\Documents\\GitHub\\h25-2N6-demoGit-tchionathan\\R03 Exercices Depart\\"
 
 # INSTRUCTIONS DÉTAILLÉES
 #Ouvrez en lecture le fichier Ex6 Competences.csv
+with open(doc, "r",  )
 #avec l'encodage et le delimiter requis
 #Imprimez la première ligne
 #Faites une boucle pour passer à travers chacune des lignes du fichier
 #Si l'exigence est  'Exigé' imprimez cette ligne
-
