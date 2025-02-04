@@ -59,8 +59,8 @@ with open(stage, 'r', encoding='utf-8') as csv_fileRead:
                                delimiter='|',
                                lineterminator="\n")
         # Écrivez dans le fichier Ex5 Stages TI.csv les entêtes du premier fichier ( avec writerow() et next())  
-        entete = next(csv_read)
-        csv_write.writerow(entete)
+        #entete = next(csv_read)
+        #csv_write.writerow(entete)
         # Dans votre boucle qui passera à travers les lignes du fichier de stages
 
         #      Faites un test pour voir si la valeur de la voie de sortie est TI
