@@ -2,10 +2,10 @@ import os                             # N'enlevez pas ces lignes.
 os.chdir(os.path.dirname(__file__))   # Elles permettent de se positionner dans le répertoire de ce script
 
 # Importez csv
-
+import csv
 
  
-
+os.chdir("C:\\Users\\6297003\\Documents\\GitHub\\h25-2N6-demoGit-tchionathan\\R03 Exercices Depart\\csvs\\")
 # Vous utiliserez encore le fichier "Ex7 Lan Party.csv"
 # 
 #         Créez une liste des jeux joués dans les différents Lan Party du fichier.
