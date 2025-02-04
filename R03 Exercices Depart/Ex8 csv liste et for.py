@@ -21,26 +21,6 @@ os.chdir("C:\\Users\\6297003\\Documents\\GitHub\\h25-2N6-demoGit-tchionathan\\R0
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # INSTRUCTIONS DÉTAILLÉES
 #      Commencez par créer une liste des différents jeux vide
 jeux = []
